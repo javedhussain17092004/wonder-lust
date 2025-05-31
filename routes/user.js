@@ -10,6 +10,7 @@ router.route("/signup")
 .get(userController.renderSignupForm)
 .post(wrapAsync(userController.signup));
 
+
 router.route("/login")
 .get(userController.renderLoginForm)
 .post(

@@ -11,6 +11,7 @@ const map = new mapboxgl.Map({
 
 
 
+
 const marker = new mapboxgl.Marker({color:"red"})
 .setLngLat(listing.geometry.coordinates)
 .setPopup(
